@@ -19,3 +19,27 @@ movements are allowed
 ### Algorithm Used
 - GREEDY BEST FIRST SEARCH ALGORITHM
 - GENETIC ALGORITHM
+- 
+### List the PEAS description of the problem here in this markdown block:
+
+#### Performance Measure:
+- The primary goal is to reach home safely with the maximum number of points while avoiding flooded areas.
+- Performance can be measured in terms of the number of points accumulated and the number of grid squares traversed to reach home.
+- Additional performance measures could include the time taken to reach home and the accuracy of the agent's navigation.
+
+#### Environment:
+- The environment is the city of Nellore in Andhra Pradesh during heavy rains caused by Cyclone Michaung.
+- The environment consists of a grid layout representing different areas of the city, some of which are flooded while others are safe for traversal.
+- Each grid cell can be in one of three states: safe, flooded, or road flooded.
+- The environment may change dynamically as the cyclone progresses, affecting the flood levels in different areas.
+
+#### Actuators:
+- The agent can move in four directions: up, down, left, and right.
+- The agent can also assess the safety of adjacent grid squares and make decisions based on this assessment.
+- Actions could also involve evaluating the severity of flood conditions and deciding whether to wait for the water levels to decrease or to find an alternative route.
+
+#### Sensors:
+- The agent has sensors to perceive the grid layout and detect flooded areas and safe passages.
+- The agent can also detect its current location on the grid and assess the safety of adjacent squares.
+- Sensors may provide information about the depth of water in flooded areas and the likelihood of roads being impassable due to flooding.
+- The agent's sensors may also provide real-time updates on weather conditions and flood warnings from meteorological sources.
